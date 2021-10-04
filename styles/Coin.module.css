@@ -1,0 +1,48 @@
+.rowContainer {
+    width: 100%;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px);
+}
+
+.rowContainer td {
+    border: none;
+    width: 16.66%;
+}
+
+.rowContainer td img {
+    width: 25px;
+    float: left;
+}
+
+.name {
+    font-size: 13px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #CEE5D0;
+}
+
+.symbol {
+    font-size: 13px;
+    font-weight: light;
+    color: #F3F0D7;
+}
+
+.price {
+    font-size: 13px;
+    font-weight: bold;
+    color: #D7E9F7;
+}
+
+.priceChange {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.marketCap {
+    font-size: 13px;
+    font-weight: 800;
+    color: #8E7F7F;
+}
